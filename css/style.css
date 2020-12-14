@@ -11,3 +11,59 @@ body{
 
   height: 100px;
 }
+
+.button1{
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 30px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+#title h1{
+  margin: 1em;
+  text-align: center;
+  font-size: 40px;
+}
+
+#searchbar{
+  /* background-color: #B9D9EB; */
+}
+
+#searchbar input[type=text] {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  margin: 0px auto;
+
+  border: 1px solid grey;
+  float: none;
+  width: 70%;
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+
+#search-icon{
+  position: relative;
+  z-index: 1;
+  left: 83%;
+  top: -30px;
+  color: #7B7B7B;
+  cursor: pointer;
+  width: 0;
+}
+
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #B9D9EB;
+  color: white;
+  text-align: center;
+}
