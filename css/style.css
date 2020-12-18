@@ -36,11 +36,11 @@ body{
 #title h1{
   margin: 1em;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 #searchbar{
-  /* background-color: #B9D9EB; */
+
 }
 
 #searchbar input[type=text] {
