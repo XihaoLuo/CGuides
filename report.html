@@ -2,7 +2,7 @@
 <html >
   <head>
     <title>CGuides</title>
-    <link rel="stylesheet" type = "text/css" href="css/style-passwordReset.css">
+    <link rel="stylesheet" type = "text/css" href="css/style-report.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
   </head>
   <body>
@@ -16,15 +16,19 @@
     </header>
 
     <div class = 'table'>
-        <form id="signup" action="login.html">
-            <h2>Reset Password</h2>
-
+        <form id="report" action="reportMessage.html">
+            <h2>Report Problem</h2>
             <div class="column">
-              <h3 style="padding: 20px;">
-                Please check your email and follow the instructions to reset your password.</h3>
+              <strong>Email: </strong>
+              <input type="text" name="email" placeholder= "UNI@columbia.edu" size="18" required/>
 
-              <input type="submit" value="GO BACK"/>
+              <strong>Subject: </strong>
+              <input type="text" name="username" size="18" required/>
 
+              <strong>Details: </strong>
+              <textarea name="details" rows="10" cols="30"></textarea>
+
+              <input type="submit" value="REPORT"/>
             </div>
         </form>
     </div>
