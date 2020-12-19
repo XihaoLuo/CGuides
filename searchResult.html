@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>CGuides</title>
+    <link rel="stylesheet" type = "text/css" href="css/style-searchResult.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+  </head>
+  <body>
+    <header class= "main-header">
+      <span id= "title">
+        <a href="index.html"><h1>CGuides</h1></a>
+      </span>
+      <span id="slogan">
+        <a href="index.html"><h2>The Home of All of the Best Columbia Study Guides</h2></a>
+      </span>
+    </header>
+
+    <div id= "searchbar">
+      <input type="text" placeholder="Search for study guides..." name="search"/>
+      <i id= "search-icon" class="fa fa-search fa-lg"></i>
+    </div>
+
+    <div class="filters">
+      <div id="filter-dropdown">
+        <a id="angle-down"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></a>
+        Filters
+      </div>
+
+      <div class="filter-fields">
+        <span class="selections">
+          <input type="text" placeholder="Filter by Department" autocomplete="off" />
+          <br />
+          <select multiple>
+            <option>Computer Science</option>
+            <option>Mathematics</option>
+            <option>Chemistry</option>
+            <option>Physics</option>
+            <option>Political Science</option>
+            <option>Economics</option>
+            <option>Engineering</option>
+            <option>Philosophy</option>
+            <option>Psychology</option>
+          </select>
+        </span>
+
+        <span class="selections">
+          <input type="text" placeholder="Filter by Semester" autocomplete="off" />
+          <br />
+          <select multiple>
+            <option>Fall 2020</option>
+            <option>Summer 2020</option>
+            <option>Spring 2020</option>
+            <option>Fall 2019</option>
+            <option>Summer 2019</option>
+            <option>Spring 2019</option>
+            <option>Fall 2018</option>
+            <option>Summer 2018</option>
+            <option>Spring 2018</option>
+          </select>
+        </span>
+
+        <span class="selections">
+          <input type="text" placeholder="Filter by Professor" autocomplete="off" />
+          <br />
+          <select multiple>
+            <option>David Hume</option>
+            <option>David Lewis</option>
+            <option>Immanuel Kant</option>
+            <option>Ludwig Wittgenstein</option>
+            <option>John S. Mill</option>
+            <option>Soren Kierkegaard</option>
+            <option>Bertrand Russell</option>
+          </select>
+        </span>
+
+      </div>
+
+
+    </div>
+
+    <div class="slide-container">
+      <span id="prev"><a class="prev" onclick="plusSlides(-1)">&#10094;</a></span>
+
+      <span class="img-container">
+        <img src="http://placehold.it/200"/>
+      </span>
+
+      <span class="img-container">
+        <img src="http://placehold.it/200"/>
+      </span>
+
+      <span class="img-container">
+        <img src="http://placehold.it/200"/>
+      </span>
+
+      <span class="img-container">
+        <img src="http://placehold.it/200"/>
+      </span>
+
+      <span id="next"><a class="next" onclick="plusSlides(1)">&#10095;</a></span>
+    </div>
+
+    <div class= "footer">
+      <button class="button button1">About</button>
+      <button class="button button1">Upload</button>
+      <button class="button button1">Disclamer</button>
+    </div>
+
+    <!-- <script src="js/searchResult.js"></script> -->
+
+</body>
+</html>
