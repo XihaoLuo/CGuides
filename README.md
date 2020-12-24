@@ -2,4 +2,4 @@
 
 COMS W4170: User Interface Design Final Project
 
-Authors: Ailene, Torres, Guillermo Soto, Justin Gross, Xihao Luo
+Author: Xihao  Luo (Part of a team project but I did the implementation by myself.)
